@@ -8,7 +8,7 @@ elif 2 <= B <= 36: #definimos la funcion para cuando el valor dado a la base est
     print("La representacion de", n, "en base", B, "es:", end=" ")
     while n > 0:
         else:
-            print(chr(n % B + 55), end="")
+        print(chr(n % B + 55), end="")
     print()
 elif B > 36: #definimos la funcion para cuando B es mayor que 36
     print("La representacion de", n, "en base", B, "es:", end=" ")
